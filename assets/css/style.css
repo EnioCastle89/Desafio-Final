@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,200&display=swap');
 
+body *{
+  font-family: 'Poppins', cursive;
+}
 header {
   width: 100%;
-  height: 600px;
+  height: 85vh;
   display: block;
   background-image: url('../img/bg_hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
+  margin-bottom: 2REM;
 }
  .down{
    width: 100%;
@@ -17,3 +21,8 @@ header {
    right: 0;
    color: brown;
  }
+  #quien-soy .content-header{
+    font-size: 1.56rem;
+    letter-spacing: 5px;
+  }
+  
