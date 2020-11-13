@@ -21,8 +21,7 @@ header {
    right: 0;
    color: brown;
  }
-  #quien-soy .content-header{
-    font-size: 1.56rem;
-    letter-spacing: 5px;
-  }
-  
+ 
+.fab{
+  color: #ffffff;
+}
